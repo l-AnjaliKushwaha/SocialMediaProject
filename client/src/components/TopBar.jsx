@@ -17,7 +17,7 @@ const TopBar = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    // formState: { errors },
   } = useForm();
 
   const handleTheme = () => {
